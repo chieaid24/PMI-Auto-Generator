@@ -13,10 +13,10 @@ Check out the demo video [here!]
 <h2>⚡️Two ways to use it</h2>
 <h3>With MBDVidia (preferred)</h3>
 
-Built with *AutoHotKey*, the program will guide you with step-by-step instructions through converting your bubble drawings and .stp files to the correct formats. </br>
+Built with *AutoHotkey*, the program will guide you with step-by-step instructions through converting your bubble drawings and .stp files to the correct formats. </br>
 
 **Setup steps**:
- - Set your display resolution to `1920 x 1080p` - _allows for image recognition with AutoHotKey_
+ - Set your display resolution to `1920 x 1080p` - _allows for image recognition with AutoHotkey_
  - Within MBDVidia, bind `Export Report Set...` to `(Ctrl + W)`
 ____
 
@@ -36,6 +36,7 @@ ___
  - Recognize and assign `asymmetric tolerances`
  - Recognize `duplicate features` and define annotations for each
  - Prompt user for `default tolerances` and apply when necessary
+ - **Note:** The core logic of the program is written in __Python__, while __AutoHotkey__ is used for window manipulation and UI automation
 ___
 <h2>🔭 Further Steps</h2>
 
